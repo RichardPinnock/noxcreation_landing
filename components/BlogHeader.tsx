@@ -12,6 +12,7 @@ export default function BlogHeader() {
           className="flex flex-col bg-card p-4 hover:shadow-md"
         >
           <Image
+            data-aos="fade-zoom-in"
             width={592}
             height={228}
             className="w-full mb-4 md:mb-0"
@@ -56,6 +57,7 @@ export default function BlogHeader() {
             className="flex flex-col md:flex-row p-4 hover:shadow-md"
           >
             <Image
+              data-aos="fade-zoom-in"
               width={200}
               height={200}
               className="w-full md:w-1/3 mr-4"

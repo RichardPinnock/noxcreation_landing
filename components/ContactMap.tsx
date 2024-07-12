@@ -5,7 +5,13 @@ export default function ContactMap() {
   return (
     <div id="contacto" className="flex flex-col md:flex-row ">
       <div className="w-full md:w-1/3">
-        <Image src="/mapa.png" alt="map" width={1000} height={500} />
+        <Image
+          data-aos="fade-zoom-in"
+          src="/mapa.png"
+          alt="map"
+          width={1000}
+          height={500}
+        />
       </div>
       <div className="w-full md:w-2/3 p-8 bg-card text-card-foreground">
         <h2 className="text-2xl font-bold mb-4">Contacto</h2>

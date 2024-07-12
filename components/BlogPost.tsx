@@ -58,6 +58,7 @@ export default function BlogPost() {
             className="flex flex-col bg-card p-4 hover:shadow-md"
           >
             <Image
+              data-aos="fade-zoom-in"
               width={592}
               height={228}
               className="w-full mb-4 md:mb-0"

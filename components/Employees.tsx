@@ -38,6 +38,7 @@ export default function Employees() {
   return (
     <div id="nuestro-equipo" className="relative p-8 my-20">
       <Image
+        data-aos="fade-zoom-in"
         src="/employees_points.png"
         alt="Puntos Flotantes"
         width={190}
@@ -55,6 +56,7 @@ export default function Employees() {
           >
             {employee.image && (
               <Image
+                data-aos="fade-zoom-in"
                 width={300}
                 height={300}
                 src={employee.image}

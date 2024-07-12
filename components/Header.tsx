@@ -6,6 +6,7 @@ export default function Header() {
     <div className="relative h-[120vh] md:h-[80vh] flex flex-col items-center justify-center">
       <div className="absolute top-0 md:top-20 mx-auto z-10">
         <Image
+          data-aos="fade-zoom-in"
           src="/floating_images/ornament1.png"
           alt="20+ Modernas Aplicaciones"
           width={399}
@@ -15,6 +16,7 @@ export default function Header() {
       </div>
       <div className="absolute top-0 left-4 md:top-20 md:left-20 z-10">
         <Image
+          data-aos="fade-zoom-in"
           src="/floating_images/points1.png"
           alt="Puntos Flotantes"
           width={139}
@@ -24,6 +26,7 @@ export default function Header() {
       </div>
       <div className="absolute top-0 right-4 md:top-20 md:right-20 z-10">
         <Image
+          data-aos="fade-zoom-in"
           src="/floating_images/points2.png"
           alt="Puntos Flotantes"
           width={126}
@@ -33,6 +36,7 @@ export default function Header() {
       </div>
       <div className="absolute bottom-0 left-0 md:left-10 z-10">
         <Image
+          data-aos="fade-zoom-in"
           src="/floating_images/ornament2.png"
           alt="UP Developers"
           width={220}
@@ -42,6 +46,7 @@ export default function Header() {
       </div>
       <div className="absolute right-0 bottom-0 md:right-10 z-10">
         <Image
+          data-aos="fade-zoom-in"
           src="/floating_images/ornament3.png"
           alt="+130 Proyectos Terminados"
           width={344}
@@ -71,6 +76,7 @@ export default function Header() {
       </div>
       <div className="absolute z-0 mx-auto top-44 md:top-40 mb-24">
         <Image
+          data-aos="fade-zoom-in"
           alt="Nox Creations"
           src="/big_logo.png"
           width={380}

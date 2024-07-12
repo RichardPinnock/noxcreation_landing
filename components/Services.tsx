@@ -54,6 +54,7 @@ export default function Services() {
           {services.map((service) => (
             <div key={service.title} className=" p-6">
               <Image
+                data-aos="fade-zoom-in"
                 src={service.icon}
                 alt={service.title}
                 width={64}

@@ -17,6 +17,7 @@ export default function HowWeWork() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="flex-shrink-0 mb-6 md:mb-0 md:mr-6">
             <Image
+              data-aos="fade-zoom-in"
               width={600}
               height={600}
               className=" object-cover"
@@ -54,6 +55,7 @@ export default function HowWeWork() {
           </div>
           <div className="flex-shrink-0 mb-6 md:mb-0 ml-auto order-first md:order-last">
             <Image
+              data-aos="fade-zoom-in"
               width={600}
               height={600}
               className="object-cover"

@@ -250,6 +250,7 @@ export default function PreviousJobs() {
                 {job.images.map((image) => (
                   <div key={image.name} className="p-6">
                     <Image
+                      data-aos="fade-zoom-in"
                       src={image.src}
                       alt={image.name}
                       width={230}

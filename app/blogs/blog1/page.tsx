@@ -16,6 +16,7 @@ export default function Page() {
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
       <div className=" mx-auto p-4 bg-card text-card-foreground">
         <Image
+          data-aos="fade-zoom-in"
           width={1216}
           height={350}
           src="/blog_wall.png"
